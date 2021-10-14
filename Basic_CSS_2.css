@@ -1,0 +1,10 @@
+p {
+	color: yellow;
+	background: ForestGreen;
+	font-weight: bold;
+	text-align: center;
+	/* comments */
+}
+p{
+	text-shadow: 2px 2px #0000FF;
+}
