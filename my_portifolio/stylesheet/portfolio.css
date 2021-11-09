@@ -21,7 +21,7 @@ body {
      color: #fff;
  }
 
- p{
+ p {
      font-family: Perpetua, Rockwell Extra Bold; 
      text-align: justify;
      letter-spacing: 1px;
@@ -75,16 +75,11 @@ body {
 }
 
 footer {
-    padding: 1%;
+    padding: 2%;
     background-color: rgba(245, 39, 211, 0.02)
     
 }
 
-.rodape {
-    font-size: 15px;
-    text-align: right;
-    color: black;
-}
 
 .Navbar {
     overflow: hidden;
@@ -106,7 +101,7 @@ footer {
     float: left;
     display: block;
     color: black;
-    padding: 16px 18px;
+    padding: 14px 16px;
     text-decoration: none;
     font-family: Helvetica, Arial;
     font-size: 18px;
@@ -130,6 +125,10 @@ footer {
 
 .Navbar a:hover {
   color: rgb(76, 93, 104);
+}
+
+.Navbar a.active { /* This targets the a element on the navbar with the "active" class */
+    background-color: darkgray;
 }
 
 #Typing_Video {
@@ -165,7 +164,7 @@ footer {
     box-sizing: border-box;
 }
 
-.column_1 {
+.Column_1 {
     float: left;
     width: 50%;
     padding: 10px;
@@ -179,7 +178,7 @@ footer {
         overflow: auto;
     }
 
-    .column_2 {
+    .Column_2 {
         float: left;
         width: 50%;
         padding: 10px;
@@ -188,12 +187,12 @@ footer {
         background-color:rgba(160, 191, 217, 0.01);
     }
 
-    .column_tall {
+    .Column_tall {
         padding-top: 3.5%;
         height: 450px;
     }
 
-.row:after {
+.Row:after {
     content: "";
     display: table;
     clear: both;
@@ -205,7 +204,8 @@ input[type=text] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 16px;
+    margin-top: 6px;
+    margin-bottom: 16px;
     resize: vertical;
     font-family: Perpetua, Rockwell Extra Bold;
 }
